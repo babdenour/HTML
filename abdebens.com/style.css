@@ -3,8 +3,8 @@ head {
 }
 
 body {
-	background: url(img/moi.jpeg) fixed no-repeat cover center;
-	
+	background: url(img/moi.jpeg) top right no-repeat;
+	background-size: 45%;
 }
 
 footer {
@@ -14,12 +14,13 @@ footer {
 div {
 	position: sticky;
 	left: 30px;
-	border: 3px solid black;
+	border: 1px solid grey;
 }
 .navigation {
 	color: white;
 }
-.content {
+
+p {
 	font-size: 100%;
 	color: grey;
 }
