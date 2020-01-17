@@ -1,4 +1,12 @@
+@font-face {
+	font-family: "Roboto Slab", "Arial Black", serif;
+	src: url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+	}
+
 head {
+	text-align: justify-all;
+	font-style: oblique;
+	font-weight: bold;
 	
 }
 
@@ -8,24 +16,35 @@ body {
 }
 
 footer {
-	
 }
 
-div {
-	position: sticky;
-	left: 30px;
-	border: 1px solid grey;
+h1 {
 }
-.navigation {
-	color: white;
+ul {
+	text-align: left;
+	position: sticky;
+	left: 50px;
+	border: 1px grey;
 }
 
 p {
 	font-size: 100%;
 	color: grey;
 }
+a:hover{
+	text-decoration: underline;
+	color: red;
+}
 
-#banner {
+a:focus{
+	background-color: black; 
+}
+.navigation {
+
+	color: black;
+}
+#navigation {
+	text-align: justify;
 }
 
 #swsh {
