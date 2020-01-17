@@ -1,0 +1,29 @@
+head {
+	
+}
+
+body {
+	background: url(img/moi.jpeg) fixed no-repeat cover center;
+	height: 100%;
+	width: 100%;
+
+}
+
+footer {
+	
+}
+
+.navigation {
+	color: white;
+}
+.content {
+	font-size: 100%;
+	color: grey;
+}
+
+#banner {
+}
+
+#swsh {
+	height: 50%;
+	width: 25%;
